@@ -190,27 +190,22 @@ with position input in longitude and latitude.
 
 This application has 2 modes, realtime mode and history mode.
 
-History mode displays the location of the input data location in the map , and also adjusts the status color according to the list legend . when the icon of each location is clicked it will output data from that point. and will automatically zoom towards the icon.
+History mode displays the location of the input data location in the map , and also adjusts the status color according to the list legend . when the icon of each location is clicked it will output data from that point. and will automatically zoom towards the icon
 
 ![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/zoomintruck.PNG?raw=true)
 
-the pop up : 
-
-![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/popup.PNG?raw=true)
-
- after selecting, the json file will be downloaded, with the same name as the excel file.
+Realtime mode is used to display the location in a relatime value from realtime location data which is always increasing.
  
- ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/downloadedjson.PNG?raw=true)
+ ![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/AppRealtime.PNG?raw=true)
 
-with data like below:
+ Each point when clicked it will zoom and output data from that point.
 
- ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/outputopen.PNG?raw=true)
+ ![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/zoomrealtimetruck.PNG?raw=true)
 
-and the button will change the text .
+Each mode can do manual zoom via the buttons from zoom in zoom out at the top right end
 
- ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/theappchange.PNG?raw=true)
+ ![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/zoombutton.PNG?raw=true)
 
-  and also to reset the previous file, there is an X button to remove the previously saved file.
 
 
 </td>
