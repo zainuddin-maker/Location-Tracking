@@ -3,7 +3,7 @@
   <br>
   <!-- <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a> -->
   <br>
-  Export Excel to Json FIle
+  Location Tracking App
   <br>
 </h1>
 
@@ -11,13 +11,16 @@
 
 <!-- <h4 align="center">A minimal Markdown Editor desktop app built on top of <a target="_blank">Electron</a>.</h4> -->
 
-![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/theapp.PNG?raw=true)
+![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/App.PNG?raw=true)
 <!-- ![screenshot](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4?raw=true)
 
 https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4 -->
 
 
-This application is used to export excel data to json, with the input offset, this input is used to select row 1 - the offset is not considered, so offset + 1 becomes the key of the json data
+
+This application is used for tracking truck locations in 2D images that have been integrated with the actual map.
+
+
 
 ## Example Data
 <!-- - Data Value
