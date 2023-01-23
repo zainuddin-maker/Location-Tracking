@@ -18,62 +18,164 @@ https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_exce
 
 
 
-This application is used for tracking truck locations in 2D images that have been integrated with the actual map.
+This application is used for tracking truck locations in 2D images that have been integrated with the actual map 
+with position input in longitude and latitude.
 
+![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/ImginMap.PNG?raw=true)
 
 
 ## Example Data
-<!-- - Data Value
+- Data Legend
 
-            [
-                {
-                    Category: "111",
-                    NPT: 32.2,
-                    PT:67.8,
-                
-                },
-                {
-                    Category: "P2",
-                    NPT: 68.63,
-                    PT:31.37,
-                },
-                {
-                    Category: "P3",
-                    NPT: 100,
-                    PT:0,
-                },
-                {
-                    Category: "P4",
-                    NPT: 100,
-                    PT:0,
-                },
-                {
-                    Category: "P5",
-                    NPT: 100,
-                    PT:0,
-                },
-                {
-                    Category: "P6",
-                    NPT: 100,
-                    PT:0,
-                },
+        [
+            {
+                text: "In Motion",
+                status: "inmotion",
+                color: "#00828c",
+            },
+            {
+                text: "Idle",
+                status: "idle",
+                color: "#fed932",
+            },
+            {
+                text: "Queeing",
+                status: "1ueeing",
+                color: "#fd6a03",
+            },
+            {
+                text: "Parked",
+                status: "parked",
+                color: "#e1383f",
+            },
+        ]
 
-            ]
+- Data Location 
 
-- Configuratin Data
+        [
+            {
+                status: "idle",
+                position: "-6.10228,106.88023",
+                id: 1,
+                number: "05",
+            },
+            {
+                status: "inmotion",
+                position: "-6.10418,106.88023",
+                id: 7,
+                number: "07",
+            },
+            {
+                status: "1ueeing",
+                position: "-6.10218,106.88433",
+                id: 8,
+                number: "08",
+            },
+            {
+                status: "parked",
+                position: "-6.10228,106.88243",
+                id: 7,
+                number: "09",
+            },
 
-            [
-                {
-                    list_type: "NPT,PT",
-                    list_color: "#003800,#f6682e",
-                },
-                 {
-                    list_type: "PT",
-                    list_color: "#f6db0f",
-                }
-            ] -->
+        ];
 
-offset = 1
+- Data Location Realtime
+
+        [
+            {
+                position: "-6.10579,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10559,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10539,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10519,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10499,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10479,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10459,106.88223",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10459,106.88203",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10459,106.88183",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10459,106.88163",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+
+            {
+                position: "-6.104585,106.88143",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10458,106.88123",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10438,106.88123",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10418,106.88123",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+            {
+                position: "-6.10388,106.88123",
+                status: "parked",
+                id: 1,
+                number: "08",
+            },
+        ]
+
 
 ## Usage example
 
@@ -85,9 +187,12 @@ offset = 1
 
 
 
-Click the button with the words "Input Excell", then a pop up will appear to select the excel file you want to export, don't worry, the popup will automatically be in excel type.
-We give an example of excel input as below:
-![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/exampleinput.PNG?raw=true)
+
+This application has 2 modes, realtime mode and history mode.
+
+History mode displays the location of the input data location in the map , and also adjusts the status color according to the list legend . when the icon of each location is clicked it will output data from that point. and will automatically zoom towards the icon.
+
+![Chat Preview](https://github.com/zainuddin-maker/Location-Tracking/blob/master/zoomintruck.PNG?raw=true)
 
 the pop up : 
 

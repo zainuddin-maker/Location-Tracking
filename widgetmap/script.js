@@ -32,27 +32,22 @@ var datatruck = [
     {
         status: "inmotion",
         position: "-6.10418,106.88023",
-        id: 1,
+        id: 7,
         number: "07",
     },
     {
         status: "1ueeing",
         position: "-6.10218,106.88433",
-        id: 1,
+        id: 8,
         number: "08",
     },
     {
         status: "parked",
         position: "-6.10228,106.88243",
-        id: 1,
+        id: 7,
         number: "09",
     },
-    // {
-    //     status: "parked",
-    //     position: "-6.10749, 106.88572",
-    //     id: 1,
-    //     number: "08",
-    // },
+
 ];
 
 var data_tracking_truck = [
