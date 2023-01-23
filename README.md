@@ -291,6 +291,10 @@ Each mode can do manual zoom via the buttons from zoom in zoom out at the top ri
 ## Built with 
 
 - [D3.js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data.
+- [leaflet-src.js](https://leafletjs.com/download.html) - Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps.
+- [leaflet.css](https://www.npmjs.com/package/leaflet-css) -small library to add the css for leaflet without having to bother including ugly conditional comments.
+- [leaflet-rotate-src.js](https://www.npmjs.com/package/leaflet-rotate) -A Leaflet plugin that allows to add rotation functionality to map tiles.
+- [Leaflet.ImageOverlay.Rotated.js](https://github.com/IvanSanchez/Leaflet.ImageOverlay.Rotated) -This LeafletJS plugin adds a new class, L.ImageOverlay.Rotated, subclass of L.ImageOverlay.
 - [html](https://www.w3schools.com/html/) - HTML is the standard markup language for Web pages.
 - [css](https://www.w3schools.com/css/) - CSS is the language we use to style an HTML document
 
